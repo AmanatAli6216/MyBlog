@@ -2,7 +2,6 @@ from django.contrib import admin
 
 from .models import Category, Post
 
-
 # Register your models here.
 
 # for configuration of Category admin
