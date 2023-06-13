@@ -30,3 +30,6 @@ def category(request, url):
     cat = Category.objects.get(url=url)
     posts = Post.objects.filter(cat=cat)
     return render(request, "category.html", {'cat': cat, 'posts': posts})
+def aboutus(request):
+
+    return render(request, "aboutus.html")
